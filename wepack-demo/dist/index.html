@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="/assets/bootstrap-5.3.2-dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./style.9a0063586ca3ee393672.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      data-rh="true"
+      rel="icon"
+      type="image/x-icon"
+      href="assets/image/icon.svg"
+    />
+    <title>Simple Calculator</title>
+    <link href="style.9a0063586ca3ee393672.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <br />
+      <div class="alert alert-danger" role="alert" id="error"></div>
+      <br /><br /><input
+        class="form-control Num"
+        placeholder="num1"
+      /><br /><input class="form-control Num" placeholder="num2" /><br /><select
+        name="op"
+        class="form-select"
+        id="op"
+      >
+        <option value="add">+</option>
+        <option value="min">-</option>
+        <option value="multiply">*</option>
+        <option value="division">/</option></select
+      ><br /><button class="btn btn-primary" id="cal">Calculate</button
+      ><br /><br />
+      <p class="form-control" id="result">Result:</p>
+      <img id="myImage" alt="myImage" />
+    </div>
+    <script defer="defer" src="bundle.9a0063586ca3ee393672.js"></script>
+  </body>
+</html>

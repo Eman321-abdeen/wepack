@@ -1,0 +1,7 @@
+.container{
+    width: 60%;
+    margin-inline: 20%;
+}
+#error{
+    display: none;
+}
